@@ -22,6 +22,7 @@ public class Test1 {
             case 1:sum+=31;
         }
         System.out.println(sum+day);*/
+        /******++++++++++++++++++++++++++++*/
         for(int i=1;i<10;i++){
             for(int j=1;j<=i;j++){
                 System.out.print(i+"*"+j+"="+i*j);
@@ -41,6 +42,7 @@ public class Test1 {
             }*/
             System.out.println();
         }
+        /******++++++++++++++++++++++++++++*/
         int i=2,sum=0;
         while (i<=100){
             if(isSu(i)){
@@ -50,7 +52,7 @@ public class Test1 {
             i++;
         }
         System.out.println("100以内素数和为"+sum);
-
+        /******++++++++++++++++++++++++++++*/
     }
     public  static boolean isSu(int a){
         for(int i=2;i<=Math.sqrt(a);i++){
@@ -62,4 +64,5 @@ public class Test1 {
         }
         return true;
     }
+
 }
